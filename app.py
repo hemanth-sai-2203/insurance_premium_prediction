@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -37,7 +36,7 @@ st.dataframe(input_data)
 if st.button("Predict Expenses"):
     prediction = model.predict(input_data)
     st.success(f"Estimated Insurance Expense: **${prediction[0]:,.2f}**")
-=======
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -76,4 +75,4 @@ st.dataframe(input_data)
 if st.button("Predict Expenses"):
     prediction = model.predict(input_data)
     st.success(f"Estimated Insurance Expense: **${prediction[0]:,.2f}**")
->>>>>>> 58c64d0fd7aefe50f5dd037951b9f3831cecd3be
+
